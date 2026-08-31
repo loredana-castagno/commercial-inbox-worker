@@ -1,0 +1,9 @@
+# Se desarrolla en Windows y se despliega en Linux (EC2). Sin esto, el primer
+# pull del otro lado muestra como modificados archivos que nadie tocó.
+* text=auto eol=lf
+
+# Binarios: que git no intente normalizar nada.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.db binary

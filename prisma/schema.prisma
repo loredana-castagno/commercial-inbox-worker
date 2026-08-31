@@ -1,0 +1,100 @@
+// Base propia del worker de triage. Solo estado de clasificación.
+// Prohibido agregar acá modelos de leads, cuentas o contactos: eso vive en el CRM
+// y se accede por HTTP.
+
+generator client {
+  provider     = "prisma-client"
+  output       = "../src/generated/prisma"
+  moduleFormat = "esm"
+  runtime      = "nodejs"
+}
+
+// La URL vive en prisma.config.ts (Prisma 7 ya no la acepta acá).
+datasource db {
+  provider = "sqlite"
+}
+
+model EmailTriage {
+  // Clave primaria = id del mensaje en Gmail. Es lo que hace idempotente el worker.
+  gmailMessageId String @id
+  gmailThreadId  String
+
+  fromEmail  String
+  fromName   String?
+  subject    String?
+  receivedAt DateTime
+
+  // Valor de la taxonomía de SPEC.md. SQLite no soporta enums en Prisma:
+  // la validación la hace el código contra CATEGORIES.
+  category   String
+
+  // Cuando el executor promueve a TO_MANUAL_SORT por ser una segunda respuesta,
+  // acá queda qué categoría había dicho el clasificador. Sin esto, la cola de
+  // revisión muestra un TO_MANUAL_SORT sin decir de qué se trata.
+  categoriaBase String?
+
+  confidence Float
+
+  // Entidades extraídas por el clasificador, serializadas. Se parsean con Zod al leer.
+  entitiesJson String?
+
+  needsHumanReview Boolean @default(true)
+  reviewReason     String?
+
+  // PENDING | EXECUTED | SKIPPED | FAILED
+  status String @default("PENDING")
+
+  // Bajo qué barreras se procesó. Se guardan las dos por separado para poder
+  // distinguir shadow mode de una corrida que sí tocó Gmail o sí tocó Snov/CRM.
+  gmailWriteEnabled    Boolean
+  externalWriteEnabled Boolean
+
+  classifierModel String?
+
+  // ── Reproceso por etiqueta ────────────────────────────────────────────────
+  // El candado que evita que un correo con la etiqueta REPROCESS se reprocese en
+  // cada corrida para siempre. No alcanza con "ya lo hice": el barrido no puede
+  // confiar en haber podido quitar la etiqueta (en shadow mode no escribe, y con
+  // Gmail caído el modify falla).
+  //
+  // Se guarda la **huella del conjunto de etiquetas** con el que se reprocesó, no
+  // un booleano, porque hay que distinguir "ya lo hice" de "la persona cambió de
+  // idea y lo reetiquetó": si las etiquetas cambian, la huella cambia y el correo
+  // se vuelve a procesar.
+  //
+  // Y son dos campos y no uno: `reprocesoHuella` es "las etiquetas con las que lo
+  // intenté" y `reprocesadoEn` es "y llegué a terminarlo". Con uno solo, un
+  // reproceso que falla no puede contar sus intentos sin marcarse como hecho — el
+  // contador volvía a cero en cada corrida y el tope no se alcanzaba nunca.
+  reprocesoHuella   String?
+  reprocesoIntentos Int       @default(0)
+  reprocesadoEn     DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([gmailThreadId])
+  @@index([category])
+  @@index([status])
+  @@index([receivedAt])
+}
+
+/// Cursor de sincronización con Gmail. Una sola fila, con id fijo en 1.
+model SyncState {
+  id Int @id @default(1)
+
+  // Cursor incremental de users.history.list. Gmail lo retiene ~1 semana:
+  // si expira, la API devuelve 404 y se cae a users.messages.list por fecha.
+  historyId String?
+
+  // Fecha interna del último mensaje procesado con éxito. Es el punto de partida
+  // del fallback, así que se actualiza solo después de procesar bien.
+  lastMessageDate DateTime?
+  lastRunAt       DateTime?
+
+  // Cuándo se revisó Spam por última vez. Va aparte del cursor porque es otro
+  // ritmo: el inbox se mira cada 10 minutos, Spam un par de veces al día.
+  lastSpamSweepAt DateTime?
+
+  updatedAt DateTime @updatedAt
+}

@@ -1,0 +1,6 @@
+// Igual que tsconfig.json pero sin los tests: lo que se sube a EC2 no los necesita.
+// El typecheck sigue usando tsconfig.json, así que los tests se validan igual.
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["node_modules", "dist", "src/**/*.test.ts"]
+}

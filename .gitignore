@@ -1,0 +1,53 @@
+node_modules/
+dist/
+
+# Cliente de Prisma: se regenera con `npm run db:generate`
+src/generated/
+
+# Credenciales — nunca commitear
+.env
+.env.*
+!.env.example
+
+# Dataset de evaluación: se versiona la ANOTACIÓN, no los mails.
+# Los cuerpos son datos personales de terceros (120 mails de 90 empresas) y en git
+# quedarían en el historial para siempre. Se reconstruyen con dataset:rebuild.
+evals/dataset/*.json
+!evals/dataset/anotaciones.json
+evals/*.xlsx
+
+# Base local de triage (propia del worker, nunca la del CRM)
+data/*
+!data/.gitkeep
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# URL de autorización que escribe auth:gmail (efímera)
+auth-url.txt
+
+# Tokens de OAuth generados localmente
+*.token.json
+
+# JSON de credenciales que descarga Google Cloud Console.
+# Lo correcto es no tenerlo acá: los valores van al .env y el archivo se borra.
+client_secret*.json
+
+# Claves de service account. Google las descarga con nombre <proyecto>-<hash>.json,
+# que no se parece a nada: por eso el directorio entero queda afuera y el archivo
+# vive ahí adentro, en vez de confiar en acertarle al patrón del nombre.
+secrets/*
+!secrets/.gitkeep
+*-service-account*.json
+allys-inbox-bot-*.json
+
+logs/
+*.log
+npm-debug.log*
+.pm2/
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

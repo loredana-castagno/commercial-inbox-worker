@@ -1,0 +1,53 @@
+{
+  "name": "commercial-inbox-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "prisma generate && tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "rescatar:spam": "tsx src/scripts/rescatar-spam.ts",
+    "reprocesar:inbox": "tsx src/scripts/reprocesar-inbox.ts",
+    "reprocesar:mensaje": "tsx src/scripts/reprocesar-mensaje.ts",
+    "crm:verificar": "tsx src/scripts/verificar-crm.ts",
+    "snov:verificar-escritura": "tsx src/scripts/verificar-escritura-snov.ts",
+    "snov:probar-relista": "tsx src/scripts/snov-probar-relista.ts",
+    "snov:verificar-email": "tsx src/scripts/snov-verificar-email.ts",
+    "test": "node --import tsx --test \"src/**/*.test.ts\"",
+    "config:check": "tsx src/scripts/check-config.ts",
+    "auth:gmail": "tsx src/scripts/auth-gmail.ts",
+    "gmail:peek": "tsx src/scripts/gmail-peek.ts",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
+    "db:studio": "prisma studio",
+    "gmail:audit": "tsx src/scripts/gmail-audit.ts",
+    "dataset:sample": "tsx src/scripts/dataset-sample.ts",
+    "anotar": "tsx src/scripts/anotar.ts",
+    "dataset:report": "tsx src/scripts/dataset-report.ts",
+    "analizar:plantillas": "tsx src/scripts/analizar-plantillas.ts",
+    "snov:check": "tsx src/scripts/snov-check.ts",
+    "snov:do-not-email": "tsx src/scripts/snov-do-not-email.ts",
+    "snov:listas": "tsx src/scripts/snov-listas.ts",
+    "evals": "tsx src/scripts/evals.ts",
+    "dataset:rebuild": "tsx src/scripts/dataset-rebuild.ts",
+    "worker": "tsx src/worker.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.118.0",
+    "@prisma/adapter-better-sqlite3": "^7.9.1",
+    "@prisma/client": "^7.9.1",
+    "dotenv": "^16.4.7",
+    "googleapis": "^175.0.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prisma": "^7.9.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

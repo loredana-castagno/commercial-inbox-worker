@@ -1,0 +1,1206 @@
+{
+  "version": 1,
+  "seed": 20260818,
+  "entradas": [
+    {
+      "messageId": "18d5abdbe8e0044b",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "EMAIL MODIFIED",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "18f6c827742c0dc9",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "18faa7126c5188a3",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_NOW",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "18fc4826d132ae46",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "18fde1ad2ba39222",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "190b720c38603c8d",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "190bcd00a6114094",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "190e1137ce99d406",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_ES_RESPUESTA",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "190feb5d713fb54d",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19229df7fb861e6e",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1922de887813fcd7",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "UNDELIVERABLE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1925023fe7a79254",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19267cf85cb96b02",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_NOW",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "192908de856218a3",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19297b62b2249408",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_NOW",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "192b9feb5adea5f8",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "HOT",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "192d4c0ef8d1bb7e",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "OTHER",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "192e85607c194114",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "192f79eb1af0a07a",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19395cc8662a4359",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1939dccb779705d3",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "EMAIL MODIFIED",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "EMAIL_MODIFIED",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "1943ba4a5939cc30",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_NOW",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "1943bf3b1c1a71fb",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "TO_MANUAL_SORT",
+      "comentario": "Si pide contacto mas adelante, es verdad que puede ser un not now, pero al tener una actitud mas proactiva pidiendo el contacto, prefiero poner una tag de manual sort y agregar este lead al crm para darle un seguimiento mas personalizado",
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "1943c40a0d16a1eb",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1943c43513aa1b4d",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "194522f2e4de393f",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNDELIVERABLE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "UNDELIVERABLE",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "194756667a1f6650",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19501f01140f7742",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "EMAIL MODIFIED",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "EMAIL_MODIFIED",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "1951f026f20203ec",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19521086fe12ceb9",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "195218dedfba7413",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19525f58c49fbdd6",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "1952b0cc7b99462f",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19540c16f5b2f387",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "195476643d6bd6a9",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_RIGHT_CONTACT",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "195d2fa77550db4b",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "195d74247153f6e4",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "195d7424789fd951",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "195e74bb027e80d0",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "TO_MANUAL_SORT",
+      "comentario": "No esta mal la tag HOT, pero al no estar seguros por la rpta de que es una OPP real, prefiero un to manual sort (dejandolo en inbox) para contestar manualmente y sin agregar por ahora al CRM",
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "196147db737e9889",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1961abec7877c8fc",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_NOW",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "1961bafc50d2f755",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19620433ad689cb7",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_NOW",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "196343ad3a5e22a9",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19651dac190e7dd8",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1965c222a30adb6d",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "TO_MANUAL_SORT",
+      "comentario": "No esta mal la tag HOT, pero al no estar seguros por la rpta de que es una OPP real, prefiero un to manual sort (dejandolo en inbox) para contestar manualmente y sin agregar por ahora al CRM",
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "1966092e9bbce8dd",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "196643223974296c",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19664332b927876d",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1967d0c726893bbc",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "TO_MANUAL_SORT",
+      "comentario": "No esta mal la tag HOT, pero al no estar seguros por la rpta de que es una OPP real, prefiero un to manual sort (dejandolo en inbox) para contestar manualmente y sin agregar por ahora al CRM",
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "1967d951c39cd7af",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1967dcb4b971e327",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1969207289f4c8c1",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "HOT",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "196aaeb9a41a50ad",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_NOW",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "196ae425b5227be9",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "196b3ddbb5696068",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_NOW",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "196f8923f77b71b3",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "196fcb44816c34f5",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19711ee45e6d1e69",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "197130f3012faef6",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "197184018f602364",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "197604a2aaea08e0",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "TO_MANUAL_SORT",
+      "comentario": "No está claro que haya una OPP, prefiero un manual sort repreguntando y dejarlo en inbox unos días hasta confirmar las intenciones",
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "197787c10c620c7d",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "197883bddad65c58",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "197a79b50e2ec071",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "197f9f1d3a6b8a77",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "198b1aac5b4de53e",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "198c68c7885b028a",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "TO_MANUAL_SORT",
+      "comentario": "No esta mal la tag HOT, pero al no estar seguros por la rpta de que es una OPP real, prefiero un to manual sort (dejandolo en inbox) para contestar manualmente y sin agregar por ahora al CRM",
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "199159b796b9d9df",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "COLD (LAST TRY)",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "TO_MANUAL_SORT",
+      "comentario": "No está mal la tag Not Now, pero al ser mas proactivo con la rpta prefiero un manual sort para quizas enviarle un correo mas en ese momento y agregar el lead al CRM",
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "1992b2d30e5ca881",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19a0069a994010ea",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "TO_MANUAL_SORT",
+      "comentario": "Esta contestando con mayor dedicación y confirma que ya trabaja con otros partners, por lo que puede haeber alguna opp en el futuro. Prefiero un manual sort y agregar este lead al CRM",
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19a01fe5dea0de88",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NOT NOW TWO DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19a084217e2d4095",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19a0842ec6ffc861",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19a084d06e821a3b",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19a4ae86f7770b76",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "REFERRAL",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19b1393c00a5e7c4",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19b94d8e9a300794",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19bb8f0513e37059",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19c4d1402792ffd5",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19cd2a241b2076bf",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19cd2f66dc246aa9",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NO THANKS DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19d30a0d5a2efff0",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19d5404b6d9bb42e",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_NOW",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19d640e41b86ee10",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19d66ae9d55feeb0",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19d6de440492113d",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19dbb0b294d1db71",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_RIGHT_CONTACT",
+      "comentario": "Le pondria la tag Not right contact y lo dejaria en inbox para buscar manualmente otro contacto relevante de la empresa a la que enviarle el correo",
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19dbb8e1bee92148",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19dbfd9f72347a43",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NOT_RIGHT_CONTACT",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19dbfe13055712f5",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19dc9a8f11d10106",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19dd479e0a546916",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19dd954a4de13446",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19dda44c90ffe676",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19e08aca7059c4d1",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19e1d0bce98f9bd0",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19e27640fa863edd",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19e313fdbb2bdd77",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "UNSUBSCRIBE",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19e5f8d545a4c207",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19e8407238372be5",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19e844836ef2eb0e",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNDELIVERABLE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "UNDELIVERABLE",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19e8db91829dd07b",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19e8ef39bfca9c4b",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19e93e1e1a6e754f",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19eb6cd6b913b1ce",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19eb76de504c7dda",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "OOO",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "OOO",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19eb773b58b3a97f",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "OOO",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "OOO",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19ebcd1c08e7b952",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19edc61a0324381a",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "OOO",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19ef1384c5f4b879",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "NO_THANKS",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19f049f4baa757c7",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "REFERRAL",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19f18f22d0c30da5",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "UNSUBSCRIBE",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19f293f9dcf53c34",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "OOO",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "OOO",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19f422220154465f",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "OOO",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "OOO",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19f6759b32eadc20",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "UNSUBSCRIBE",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "UNSUBSCRIBE",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19f6b92cd521dfa2",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "OOO",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "19f80b700d78f66e",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "OOO",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "OOO",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    },
+    {
+      "messageId": "19f9555fdcf4e8f7",
+      "particion": "holdout",
+      "etiquetaDeMuestreo": "NOT NOW DRIP",
+      "excluidoPorRegla": "saliente-mycompany",
+      "categoriaAnotada": null,
+      "comentario": null,
+      "anotadoPor": null,
+      "anotadoEn": null
+    },
+    {
+      "messageId": "1a015d480ad54f0e",
+      "particion": "muestra",
+      "etiquetaDeMuestreo": "OOO",
+      "excluidoPorRegla": null,
+      "categoriaAnotada": "OOO",
+      "comentario": null,
+      "anotadoPor": "Ally (revisión del Excel)",
+      "anotadoEn": "2026-08-19T15:10:48.572291+00:00"
+    }
+  ]
+}
